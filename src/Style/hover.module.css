@@ -1,0 +1,7 @@
+div>img:hover {
+    opacity: 1;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgba(1, 255, 1, 0.852));
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+}

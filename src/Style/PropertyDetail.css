@@ -1,0 +1,32 @@
+.custom-checkbox input[type="checkbox"] {
+    /* Hide the default checkbox */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    /* Create a custom checkbox */
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+  
+    /* Define the checkbox color */
+    background-color: #fff;
+  }
+  
+  /* Define the custom checkbox when checked */
+  .custom-checkbox input[type="checkbox"]:checked {
+    border-color: #007bff;
+    background-color: #007bff;
+  }
+  
+  /* Define the checkbox label style */
+  .custom-checkbox label {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  

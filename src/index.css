@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.borderRed {
+    border: 2px solid red;
+}
+
+.img-bg-green {
+    filter: opacity(0.5) drop-shadow(0 0 0 rgba(1, 255, 1, 0.852));
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}

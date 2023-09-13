@@ -1,0 +1,9 @@
+#myCheckbox:checked + label {
+    background-color: rgb(2, 2, 15);
+    border-color: blue;
+    display: block;
+    /* Add any other styles you want to apply */
+  }
+
+
+  

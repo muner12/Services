@@ -1,0 +1,28 @@
+.radio-button input[type="radio"] {
+    display: none;
+  }
+
+  .radio-button label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px; /* Adjust as needed */
+    cursor: pointer;
+  }
+
+  .radio-button label:before {
+    content: "";
+    display: inline-block;
+    width: 15px; /* Adjust as needed */
+    height: 15px; /* Adjust as needed */
+    border: 2px solid green; /* Adjust as needed */
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 2px;
+  }
+
+  .radio-button input[type="radio"]:checked + label:before {
+    background-color: green; /* Adjust as needed */
+    padding: 2px;
+  }

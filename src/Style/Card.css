@@ -1,0 +1,15 @@
+.custom-button{
+    outline: none !important;
+}
+.rsm-segment {
+    stroke-width: 2px; /* Set the desired stroke width of the segments */
+  }
+
+
+
+  .css-1t66kgn-MuiBackdrop-root-MuiModal-backdrop ,
+   .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop,.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop,
+   .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop
+    {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+  }
