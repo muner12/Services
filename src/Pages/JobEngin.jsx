@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import jobass from "../images/jobAss.png";
-import message from "../images/messageJ.png";
+import message from "../images/messagej.png";
 
 import auto from "../images/auto.png";
 import jobnot from "../images/jobnot.png";
